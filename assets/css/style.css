@@ -24,7 +24,7 @@ li a{
 }
 
 .header-logo {
-    width: 22%;
+    width: 16%;
 }
 
 .header-logo p {
@@ -34,7 +34,7 @@ li a{
 }
 
 .header-drop {
-    width: 58%;
+    width: 65%;
     margin-top: 18px;
 }
 .header-drop ul li{
