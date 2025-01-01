@@ -1,15 +1,15 @@
 * {
-    font-family: 'Vazirmatn'!important;
+    font-family: 'Vazirmatn' !important;
     direction: rtl;
 }
 
 body {
-    background: linear-gradient(180deg,#111823,#0c1014,#0c1014);
+    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
     height: 100vh;
     width: 100%;
 }
 
-li a{
+li a {
     text-decoration: none;
 }
 
@@ -37,22 +37,36 @@ li a{
     width: 65%;
     margin-top: 18px;
 }
-.header-drop ul li{
+
+.header-drop ul li {
     display: inline-block;
     margin: 10px;
     font-size: 20px;
     color: #fff;
 }
-.header-drop ul li a{
+
+.header-drop ul li a {
     color: #fff;
 }
-.header-drop ul li a:hover{
-    color: rgb(5, 85, 161)
+
+.header-drop ul li a:hover {
+    color: rgb(5, 85, 161);
 }
 
-.header-signup{
+.header-drop>ul>li::after {
+    content: "";
+    height: 21px;
+    display: block;
+}
+
+.header-drop ul li a:hover {
+    color: rgb(5, 85, 161);
+}
+
+.header-signup {
     width: 16%;
 }
+
 .header-signup button {
     transition: all 0.2s;
     border-radius: 13px;
@@ -61,10 +75,60 @@ li a{
     padding: 4px 24px;
     font-size: 21px;
 }
+
 .header-signup button:hover {
     box-shadow: 0 0 2px 4px rgb(5, 85, 161);
     background-color: rgb(5, 85, 161);
     color: #fff;
     border: none;
+
+
 }
 
+header nav>ul>li {
+    display: inline-block;
+    padding: 20px 30px;
+
+}
+
+header nav ul>li>ul {
+    position: absolute;
+    margin-top: 38px;
+    background-color: #0c1014;
+    width: 10.3%;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+}
+
+header nav ul>li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s;
+    transition: top 0.4s;
+    position: absolute;
+    top: 7.5%;
+}
+
+header nav ul li ul li {
+    width: 100%;
+
+}
+
+header nav>ul>li>ul>li {
+    margin: 20px 0;
+
+}
+
+.header-drop ul li ul li a {
+    margin-right: 4%;
+}
+
+.header-drop ul li ul li a:hover {
+    color: rgb(5, 85, 161);
+    background-color: #fff;
+    padding: 4px 47px;
+    margin-right: -7%;
+    transition: all 0.35s;
+}
