@@ -147,7 +147,7 @@ header nav>ul>li>ul>li {
 .header-drop ul li ul li a:hover {
     color: rgb(5, 85, 161);
     background-color: #fff;
-    padding: 4px 46px;
+    padding: 4px 45px;
     margin-right: -11%;
     transition: all 0.35s;
 }
