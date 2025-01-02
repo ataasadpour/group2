@@ -144,7 +144,8 @@ header nav>ul>li>ul>li {
     margin-right: 4%;
 }
 
-.header-drop ul li ul li a:hover {
+
+.header-drop ul > li > ul > li:hover > a {
     color: rgb(5, 85, 161);
     background-color: #fff;
     padding: 4px 45px;
