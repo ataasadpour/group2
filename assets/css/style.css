@@ -1,3 +1,10 @@
+@import url(about.css);
+@import url(contact.css);
+@import url(faq.css);
+@import url(kala.css);
+@import url(khadamat.css);
+@import url(sign.css);
+
 * {
     font-family: 'Vazirmatn' !important;
     direction: rtl;
@@ -14,6 +21,13 @@ li a {
 }
 
 /* header-top */
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
 
 .header-top {
     width: 100%;
@@ -114,7 +128,7 @@ header nav ul>li:hover>ul {
     transition: all 0.4s !important;
     
     position: absolute;
-    top: 4.5%;
+    top: 26.5%;
 }
 header nav ul>li>ul>li>ul {
     width: 100%;
