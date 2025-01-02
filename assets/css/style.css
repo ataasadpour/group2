@@ -45,6 +45,7 @@ li a {
     color: #fff;
 }
 
+
 .header-drop ul li a {
     color: #fff;
 }
@@ -55,8 +56,10 @@ li a {
 
 .header-drop>ul>li::after {
     content: "";
-    height: 21px;
+    height: 29px;
     display: block;
+    
+    margin-bottom: -17px;
 }
 
 .header-drop ul li a:hover {
@@ -108,7 +111,7 @@ header nav ul>li:hover>ul {
     transition: all 0.4s !important;
     
     position: absolute;
-    top: 7.5%;
+    top: 4.5%;
 }
 header nav ul>li>ul>li>ul {
     width: 100%;
@@ -148,7 +151,10 @@ header nav>ul>li>ul>li {
     margin-right: -11%;
     transition: all 0.35s;
 }
-
+.svg-1{
+    position: absolute;
+    
+}
 footer {
     background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
     width: 100%;
