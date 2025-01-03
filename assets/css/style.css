@@ -16,6 +16,10 @@ body {
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 li a {
     text-decoration: none;
 }
@@ -88,7 +92,7 @@ header {
 .header-signup button {
     transition: all 0.2s;
     border-radius: 13px;
-    margin-top: 8%;
+    margin-top: 18px;
     border: none;
     padding: 4px 24px;
     font-size: 21px;
@@ -113,11 +117,11 @@ header nav ul>li>ul {
     position: absolute;
     margin-top: 38px;
     background-color: #16222c;
-    width: 10.3%;
+    width: 138px;
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    top: 2%;
+    top: 10px;
     border-radius: 10px;
     /* overflow: hidden; */
 }
@@ -126,15 +130,14 @@ header nav ul>li:hover>ul {
     visibility: visible;
     opacity: 1;
     transition: all 0.4s !important;
-    
     position: absolute;
-    top: 26.5%;
+    top: 30px;
 }
 header nav ul>li>ul>li>ul {
     width: 100%;
     position: absolute;
-    right: 70%;
-    top: -23% !important;
+    right: 60px;
+    top: -38px !important;
     visibility: hidden !important;
     opacity: 0 !important;
 }
@@ -143,7 +146,7 @@ header nav ul>li>ul>li:hover>ul {
     visibility: visible !important;
     opacity: 1 !important;
     position: absolute;
-    right: 101%;
+    right: 140px;
     transition: right 0.4s;
 }
 
