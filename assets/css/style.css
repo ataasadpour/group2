@@ -6,7 +6,7 @@
 @import url(sign.css);
 
 * {
-    font-family: 'Vazirmatn' !important;
+    font-family: 'Vazirmatn';
     direction: rtl;
 }
 
@@ -113,7 +113,7 @@ header nav>ul>li {
 
 }
 
-header nav ul>li>ul {
+.header-drop ul>li>ul {
     position: absolute;
     margin-top: 38px;
     background-color: #16222c;
@@ -126,14 +126,14 @@ header nav ul>li>ul {
     /* overflow: hidden; */
 }
 
-header nav ul>li:hover>ul {
+.header-drop ul>li:hover>ul {
     visibility: visible;
     opacity: 1;
     transition: all 0.4s !important;
     position: absolute;
     top: 30px;
 }
-header nav ul>li>ul>li>ul {
+.header-drop ul>li>ul>li>ul {
     width: 100%;
     position: absolute;
     right: 60px;
@@ -142,7 +142,7 @@ header nav ul>li>ul>li>ul {
     opacity: 0 !important;
 }
 
-header nav ul>li>ul>li:hover>ul {
+.header-drop ul>li>ul>li:hover>ul {
     visibility: visible !important;
     opacity: 1 !important;
     position: absolute;
@@ -150,7 +150,7 @@ header nav ul>li>ul>li:hover>ul {
     transition: right 0.4s;
 }
 
-header nav ul li ul li {
+.header-drop ul li ul li {
     width: 100%;
 
 }
@@ -177,3 +177,4 @@ header nav>ul>li>ul>li {
     position: absolute;
     
 }
+
