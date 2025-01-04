@@ -4,6 +4,7 @@
 @import url(kala.css);
 @import url(khadamat.css);
 @import url(sign.css);
+@import url(404.css);
 
 * {
     font-family: 'Vazirmatn';
@@ -11,12 +12,12 @@
 }
 
 body {
-    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
-    height: 800vh;
+   background-color: #0c1014;
+    height: 100vh;
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -39,7 +40,7 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .header-logo {
@@ -78,7 +79,7 @@ header {
     content: "";
     height: 29px;
     display: block;
-    
+
     margin-bottom: -17px;
 }
 
@@ -134,6 +135,7 @@ header nav>ul>li {
     position: absolute;
     top: 30px;
 }
+
 .header-drop ul>li>ul>li>ul {
     width: 100%;
     position: absolute;
@@ -166,17 +168,18 @@ header nav>ul>li>ul>li {
 }
 
 
-.header-drop ul > li > ul > li:hover > a {
+.header-drop ul>li>ul>li:hover>a {
     color: rgb(5, 85, 161);
     background-color: #fff;
     padding: 4px 45px;
-    border-radius:10px;
+    border-radius: 10px;
     margin-right: -11%;
     transition: all 0.35s;
 }
-.svg-1{
+
+.svg-1 {
     position: absolute;
-    
+
 }
 
 /* hero */
@@ -204,6 +207,7 @@ header nav>ul>li>ul>li {
     color: #ffffffa6;
     font-size: 27px;
 }
+
 .p-1 {
     top: 39%;
     left: 41%;
@@ -214,7 +218,7 @@ header nav>ul>li>ul>li {
     left: 48%;
 }
 
-  
+
 
 /* counter-section */
 
@@ -224,16 +228,143 @@ header nav>ul>li>ul>li {
     margin: 38px;
 }
 
+
 .img-counter {
     width: 39%;
     margin-right: 57px;
 }
+
 .img-counter img {
-   border-radius: 15px;
+    border-radius: 15px;
 }
 
 .p-counter {
     width: 48%;
     color: #fff;
     font-size: 25px;
+}
+
+/* section-2 */
+.section-2 {
+    width: 93%;
+    display: flex;
+    margin: 38px;
+    margin-top: 92px;
+}
+
+.section-2-img {
+    width: 49%;
+    margin-right: 57px;
+}
+
+.section-2-img img {
+    border-radius: 15px;
+}
+
+.section-2 p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.section-2-title {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section-2-title h1 {
+    color: #fff;
+    font-size: 47px;
+}
+
+.section-2-p2 {
+    color: #ffffffd2 !important;
+}
+
+.section-2 h2 {
+    color: #ffffffd2 !important;
+    margin-top: 76px;
+    font-size: 29px;
+}
+
+.section-moshtari {
+    background-color: #1817179d;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-moshtari-title {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 39px 71px;
+    font-size: 40px;
+}
+
+.section-moshtari-title h1 {
+    margin-right: 63px;
+}
+
+.section-moshtari-title p {
+    margin-right: 41px;
+    font-size: 30px;
+    margin-top: 13px;
+}
+
+.section-moshtari-title-prez {
+    margin-right: 62px !important;
+}
+
+.khadamat {
+    margin-top: 53px;
+    
+}
+
+.khadamat-h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-right: 550px;
+}
+
+.khadamat-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.khadamat-card {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    background-color: gray;
+    margin: 50px 71px;
+    flex-wrap: wrap;
+    border: 0.5px solid white;
+    box-shadow: 0px 2px 11.1px white;
+    border-radius: 20px;
+}
+
+
+.khadamat-card i {
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.khadamat-card h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.khadamat-card p {
+    margin: 5px 14px 10px;
+    color: #fff;
+    font-size: 17px;
 }
