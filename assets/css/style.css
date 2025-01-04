@@ -31,6 +31,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1030;
+    backdrop-filter: blur(17px);
 }
 
 .header-top {
@@ -38,7 +39,7 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    backdrop-filter: blur(17px);
+    
 }
 
 .header-logo {
