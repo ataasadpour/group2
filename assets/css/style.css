@@ -12,7 +12,7 @@
 }
 
 body {
-   background-color: #0c1014;
+    background-color: #0c1014;
     height: 100vh;
     width: 100%;
 }
@@ -318,7 +318,7 @@ header nav>ul>li>ul>li {
 
 .khadamat {
     margin-top: 53px;
-    
+
 }
 
 .khadamat-h1 {
@@ -367,4 +367,167 @@ header nav>ul>li>ul>li {
     margin: 5px 14px 10px;
     color: #fff;
     font-size: 17px;
+}
+
+
+/* ris400 */
+
+
+@media only screen and (max-width: 400px) {
+    header {
+        position: relative;
+        backdrop-filter: none;
+    }
+
+    .header-logo {
+        width: 45%;
+        margin-right: 10px;
+    }
+
+    .header-signup {
+        width: 50%;
+    }
+
+    .hero h1 {
+        position: absolute;
+        color: #ffffffd2;
+        top: 34%;
+        font-size: 23px;
+        width: 63%;
+        left: 18%;
+    }
+
+    .p-hero {
+        position: absolute;
+        color: #ffffffa6;
+        font-size: 18px;
+    }
+
+    .p-1 {
+        top: 61%;
+        left: 25%;
+    }
+
+    .p-2 {
+        top: 74%;
+        left: 41%;
+    }
+
+    .counter-section {
+        width: 90%;
+        display: flex;
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .p-counter {
+        width: 100%;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .img-counter {
+        width: 96%;
+        /* margin-right: 57px; */
+        margin: 25px 10px;
+    }
+
+    .img-counter img {
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .section-moshtari, .khadamat, .header-drop {
+        display: none !important;
+    }
+}
+
+
+/* ris576 */
+
+
+
+@media only screen and (min-width: 402px) and (max-width: 576px) {
+    header {
+        position: relative;
+        backdrop-filter: none;
+    }
+
+    .header-signup {
+        width: 46%;
+    }
+
+    .header-logo {
+        width: 71%;
+        margin-right: 20px;
+    }
+
+    .hero {
+        width: 100%;
+        /* position: relative; */
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .hero h1 {
+        position: absolute;
+        color: #ffffffd2;
+        top: 26%;
+        font-size: 30px;
+        width: 57%;
+        left: 22%;
+    }
+
+    .p-1 {
+        top: 53%;
+        left: 31%;
+    }
+
+    .p-hero {
+        position: absolute;
+        color: #ffffffa6;
+        font-size: 21px;
+    }
+
+    .p-2 {
+        top: 62%;
+        left: 44%;
+    }
+
+    .counter-section {
+        width: 90%;
+        display: flex;
+        margin: 38px;
+        flex-direction: column;
+    }
+
+    .p-counter {
+        width: 100%;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .img-counter {
+        width: 96%;
+        /* margin-right: 57px; */
+        margin: 25px 10px;
+    }
+
+    .img-counter img {
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .section-moshtari, .khadamat, .header-drop {
+        display: none !important;
+    }
+}
+
+
+/* footer */
+
+footer {
+    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
 }
