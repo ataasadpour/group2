@@ -369,6 +369,95 @@ header nav>ul>li>ul>li {
     font-size: 17px;
 }
 
+/* footer */
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
+    display: flex;
+    flex-direction: row;
+
+    h3, h4 {
+        color: #ffffffdc;
+    }
+
+    p {
+        color: #ffffffdc;
+    }
+
+
+}
+
+.footer div {
+    margin-top: 15px;
+}
+
+.footer-about {
+    width: 25%;
+    margin: 10px 60px;
+    font-size: 20px;
+}
+
+.footer-a {
+    margin-top: 10px;
+    width: 20%;
+}
+
+.footer-a a {
+    width: 32%;
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+.footer-phone {
+    width: 20%;
+}
+
+.footer-phone h4 {
+    margin: 20px 0;
+}
+
+.footer-namad {
+    width: 30%;
+}
+
+.footer-namad img {
+    margin: 20px 10px;
+}
+
+.fa.fa-facebook-square {
+    color: white;
+}
+
+.fa.fa-twitter-square {
+    color: white;
+}
+
+.fa.fa-linkedin-square {
+    color: white;
+}
+
+.fa.fa-instagram {
+    color: white;
+}
+
+.fa.fa-google {
+    color: white;
+}
+
+.fa.fa-youtube {
+    color: white;
+}
+
+.footer-copyright p {
+    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
+    justify-content: center;
+    display: flex;
+    padding: 10px 0;
+    color: #ffffffdc;
+}
 
 /* ris400 */
 
@@ -485,7 +574,7 @@ header nav>ul>li>ul>li {
         flex-direction: column !important;
 
         h3, h4 {
-            
+
             margin-right: 7%;
         }
 
@@ -498,7 +587,7 @@ header nav>ul>li>ul>li {
 
     }
 
-    
+
     .footer div {
         margin-top: 18px !important;
         width: 100%;
@@ -677,18 +766,18 @@ header nav>ul>li>ul>li {
         margin: 35px 90px;
     }
 
-     /* footer */
+    /* footer */
 
-     .footer {
+    .footer {
         flex-direction: column !important;
 
         h3, h4 {
-            
+
             margin-right: 7%;
         }
 
         p {
-           margin-top: 19px;
+            margin-top: 19px;
             width: 79%;
             margin-right: 7%;
         }
@@ -696,7 +785,7 @@ header nav>ul>li>ul>li {
 
     }
 
-    
+
     .footer div {
         margin-top: 18px !important;
         width: 100%;
@@ -749,73 +838,4 @@ header nav>ul>li>ul>li {
     .header-drop {
         display: none !important;
     }
-}
-
-
-
-
-/* footer */
-
-.footer {
-    width: 100%;
-    height: auto;
-    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
-    display: flex;
-    flex-direction: row;
-
-    h3, h4 {
-        color: #ffffffdc;
-    }
-
-    p {
-        color: #ffffffdc;
-    }
-
-
-}
-
-.footer div {
-    margin-top: 15px;
-}
-
-.footer-about {
-    width: 25%;
-    margin: 10px 60px;
-    font-size: 20px;
-}
-
-.footer-a {
-    margin-top: 10px;
-    width: 20%;
-}
-
-.footer-a a {
-    width: 32%;
-    display: inline-block;
-    font-size: 50px;
-}
-
-
-.footer-phone {
-    width: 20%;
-}
-
-.footer-phone h4 {
-    margin: 20px 0;
-}
-
-.footer-namad {
-    width: 30%;
-}
-
-.footer-namad img {
-    margin: 20px 10px;
-}
-
-.footer-copyright p {
-    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
-    justify-content: center;
-    display: flex;
-    padding: 10px 0;
-    color: #ffffffdc;
 }
