@@ -437,7 +437,30 @@ header nav>ul>li>ul>li {
         width: 100%;
     }
 
-    .section-moshtari, .khadamat, .header-drop {
+    .section-moshtari {
+        margin-top: -30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section-moshtari-title {
+        margin: 34px 29px;
+        font-size: 28px;
+    }
+
+    .section-moshtari-title h1 {
+        margin-right: 43px;
+    }
+
+    .section-moshtari-title p {
+        margin-right: 35px;
+        font-size: 19px;
+        margin-top: 13px;
+    }
+
+
+    .khadamat, .header-drop {
         display: none !important;
     }
 }
@@ -520,7 +543,32 @@ header nav>ul>li>ul>li {
         width: 100%;
     }
 
-    .section-moshtari, .khadamat, .header-drop {
+    .section-moshtari {
+        margin-top: -30px;
+    }
+
+    .section-moshtari-title {
+        margin: 35px 3px;
+        font-size: 32px;
+    }
+
+    .section-moshtari-title h1 {
+        margin-right: 51px;
+    }
+
+    .section-moshtari-title p {
+        margin-right: 46px;
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    .section-moshtari-title p {
+        margin-right: 46px;
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    .khadamat, .header-drop {
         display: none !important;
     }
 }
