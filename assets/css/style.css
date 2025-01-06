@@ -460,8 +460,8 @@ header nav>ul>li>ul>li {
 }
 
 /* ris400 */
-
 /*
+
 @media only screen and (max-width: 489px) {
     header {
         position: relative;
@@ -517,7 +517,7 @@ header nav>ul>li>ul>li {
 
     .img-counter {
         width: 96%;
-        /* margin-right: 57px; */
+        
         margin: 25px 10px;
     }
 
@@ -568,7 +568,7 @@ header nav>ul>li>ul>li {
         margin: 32px 38px;
     }
 
-    /* footer */
+    
 
     .footer {
         flex-direction: column !important;
@@ -642,8 +642,8 @@ header nav>ul>li>ul>li {
         display: none !important;
     }
 }
-*/
 
+*/
 /* ris576 */
 
 
