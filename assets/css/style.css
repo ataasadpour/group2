@@ -209,13 +209,13 @@ header nav>ul>li>ul>li {
 }
 
 .p-1 {
-    top: 39%;
+    top: 42%;
     left: 41%;
 }
 
 .p-2 {
-    top: 45%;
-    left: 48%;
+    top: 49%;
+    left: 47%;
 }
 
 
@@ -838,4 +838,9 @@ header nav>ul>li>ul>li {
     .header-drop {
         display: none !important;
     }
+}
+
+
+.hero-title-bold {
+    color: rgb(5, 85, 161);
 }
