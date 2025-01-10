@@ -61,10 +61,10 @@
         grid-template-columns: 400px ; 
     }&
     .bg{
-        margin: 150px 50px 0px 0px;
+        margin: 42px 18px 0px 0px;
     }&
     .bg-2{
-        margin: 150px 50px 0px 0px;
+        margin: 42px 18px 0px 0px;
     }
 
 }
@@ -142,10 +142,12 @@
        
     }&
     .bg{
-        margin: 150px 150px 0px 0px;
+        margin: 73px 50px 18px 0px;
+        display: flex;
+        flex-direction: column;
     }&
     .bg-2{
-        margin: 150px 150px 0px 0px;
+        margin: 70px 50px 32px 0px;
     }
     
 }
