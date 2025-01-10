@@ -99,14 +99,20 @@ header {
     padding: 4px 24px;
     font-size: 21px;
 }
+.header-signup button a {
+    color: black;
+}
 
 .header-signup button:hover {
     box-shadow: 0 0 2px 4px rgb(5, 85, 161);
     background-color: rgb(5, 85, 161);
     color: #fff;
     border: none;
+    a{
+        color: #fff;
+    }
+   
 }
-
 
 
 header nav>ul>li {
