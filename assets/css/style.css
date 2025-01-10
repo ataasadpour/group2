@@ -4,19 +4,20 @@
 @import url(kala.css);
 @import url(khadamat.css);
 @import url(sign.css);
+@import url(404.css);
 
 * {
-    font-family: 'Vazirmatn' !important;
+    font-family: 'Vazirmatn';
     direction: rtl;
 }
 
 body {
-    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
+    background-color: #0c1014;
     height: 100vh;
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -31,6 +32,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1030;
+    backdrop-filter: blur(17px);
 }
 
 .header-top {
@@ -38,7 +40,7 @@ header {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    box-shadow: 0px 5px 25px;
+
 }
 
 .header-logo {
@@ -77,7 +79,7 @@ header {
     content: "";
     height: 29px;
     display: block;
-    
+
     margin-bottom: -17px;
 }
 
@@ -97,15 +99,21 @@ header {
     padding: 4px 24px;
     font-size: 21px;
 }
+.header-signup button a {
+    color: black;
+}
 
 .header-signup button:hover {
     box-shadow: 0 0 2px 4px rgb(5, 85, 161);
     background-color: rgb(5, 85, 161);
     color: #fff;
     border: none;
-
-
+    a{
+        color: #fff;
+    }
+   
 }
+
 
 header nav>ul>li {
     display: inline-block;
@@ -113,7 +121,7 @@ header nav>ul>li {
 
 }
 
-header nav ul>li>ul {
+.header-drop ul>li>ul {
     position: absolute;
     margin-top: 38px;
     background-color: #16222c;
@@ -126,14 +134,15 @@ header nav ul>li>ul {
     /* overflow: hidden; */
 }
 
-header nav ul>li:hover>ul {
+.header-drop ul>li:hover>ul {
     visibility: visible;
     opacity: 1;
     transition: all 0.4s !important;
     position: absolute;
     top: 30px;
 }
-header nav ul>li>ul>li>ul {
+
+.header-drop ul>li>ul>li>ul {
     width: 100%;
     position: absolute;
     right: 60px;
@@ -142,7 +151,7 @@ header nav ul>li>ul>li>ul {
     opacity: 0 !important;
 }
 
-header nav ul>li>ul>li:hover>ul {
+.header-drop ul>li>ul>li:hover>ul {
     visibility: visible !important;
     opacity: 1 !important;
     position: absolute;
@@ -150,7 +159,7 @@ header nav ul>li>ul>li:hover>ul {
     transition: right 0.4s;
 }
 
-header nav ul li ul li {
+.header-drop ul li ul li {
     width: 100%;
 
 }
@@ -165,15 +174,679 @@ header nav>ul>li>ul>li {
 }
 
 
-.header-drop ul > li > ul > li:hover > a {
+.header-drop ul>li>ul>li:hover>a {
     color: rgb(5, 85, 161);
     background-color: #fff;
     padding: 4px 45px;
-    border-radius:10px;
+    border-radius: 10px;
     margin-right: -11%;
     transition: all 0.35s;
 }
-.svg-1{
+
+.svg-1 {
     position: absolute;
+
+}
+
+/* hero */
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+
+.hero h1 {
+    position: absolute;
+    color: #ffffffd2;
+    top: 22%;
+    font-size: 50px;
+    width: 50%;
+    left: 22%;
+}
+
+.p-hero {
+    position: absolute;
+    color: #ffffffa6;
+    font-size: 27px;
+}
+
+.p-1 {
+    top: 42%;
+    left: 41%;
+}
+
+.p-2 {
+    top: 48%;
+    left: 47%;
+}
+
+
+
+/* counter-section */
+
+.counter-section {
+    width: 90%;
+    display: flex;
+    margin: 38px;
+}
+
+
+.img-counter {
+    width: 39%;
+    margin-right: 57px;
+}
+
+.img-counter img {
+    border-radius: 15px;
+}
+
+.p-counter {
+    width: 48%;
+    color: #fff;
+    font-size: 25px;
+}
+
+/* section-2 */
+.section-2 {
+    width: 93%;
+    display: flex;
+    margin: 38px;
+    margin-top: 92px;
+}
+
+.section-2-img {
+    width: 49%;
+    margin-right: 57px;
+}
+
+.section-2-img img {
+    border-radius: 15px;
+}
+
+.section-2 p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.section-2-title {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section-2-title h1 {
+    color: #fff;
+    font-size: 47px;
+}
+
+.section-2-p2 {
+    color: #ffffffd2 !important;
+}
+
+.section-2 h2 {
+    color: #ffffffd2 !important;
+    margin-top: 76px;
+    font-size: 29px;
+}
+
+.section-moshtari {
+    background-color: #1817179d;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-moshtari-title {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 39px 71px;
+    font-size: 40px;
+}
+
+.section-moshtari-title h1 {
+    margin-right: 63px;
+}
+
+.section-moshtari-title p {
+    margin-right: 41px;
+    font-size: 30px;
+    margin-top: 13px;
+}
+
+.section-moshtari-title-prez {
+    margin-right: 62px !important;
+}
+
+.khadamat {
+    margin-top: 53px;
+
+}
+
+.khadamat-h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-right: 550px;
+}
+
+.khadamat-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.khadamat-card {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    background-color: gray;
+    margin: 50px 71px;
+    flex-wrap: wrap;
+    border: 0.5px solid white;
+    box-shadow: 0px 2px 11.1px white;
+    border-radius: 20px;
+}
+
+
+.khadamat-card i {
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.khadamat-card h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.khadamat-card p {
+    margin: 5px 14px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
+    display: flex;
+    flex-direction: row;
+
+    h3, h4 {
+        color: #ffffffdc;
+    }
+
+    p {
+        color: #ffffffdc;
+    }
+
+
+}
+
+.footer div {
+    margin-top: 15px;
+}
+
+.footer-about {
+    width: 25%;
+    margin: 10px 60px;
+    font-size: 20px;
+}
+
+.footer-a {
+    margin-top: 10px;
+    width: 20%;
+}
+
+.footer-a a {
+    width: 32%;
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+.footer-phone {
+    width: 20%;
+}
+
+.footer-phone h4 {
+    margin: 20px 0;
+}
+
+.footer-namad {
+    width: 30%;
+}
+
+.footer-namad img {
+    margin: 20px 10px;
+}
+
+.fa.fa-facebook-square {
+    color: white;
+}
+
+.fa.fa-twitter-square {
+    color: white;
+}
+
+.fa.fa-linkedin-square {
+    color: white;
+}
+
+.fa.fa-instagram {
+    color: white;
+}
+
+.fa.fa-google {
+    color: white;
+}
+
+.fa.fa-youtube {
+    color: white;
+}
+
+.footer-copyright p {
+    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
+    justify-content: center;
+    display: flex;
+    padding: 10px 0;
+    color: #ffffffdc;
+}
+
+/* ris400 */
+
+
+@media only screen and (max-width: 489px) {
+    header {
+        position: relative;
+        backdrop-filter: none;
+    }
+
+    .header-logo {
+        width: 45%;
+        margin-right: 10px;
+    }
+
+    .header-signup {
+        width: 50%;
+    }
+
+    .hero h1 {
+        position: absolute;
+        color: #ffffffd2;
+        top: 34%;
+        font-size: 23px;
+        width: 68%;
+        left: 18%;
+    }
+
+    .p-hero {
+        position: absolute;
+        color: #ffffffa6;
+        font-size: 18px;
+    }
+
+    .p-1 {
+        top: 63%;
+        left: 25%;
+    }
+
+    .p-2 {
+        top: 74%;
+        left: 41%;
+    }
+
+    .counter-section {
+        width: 90%;
+        display: flex;
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .p-counter {
+        width: 100%;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .img-counter {
+        width: 96%;
+        
+        margin: 25px 10px;
+    }
+
+    .img-counter img {
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .section-moshtari {
+        margin-top: -30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section-moshtari-title {
+        margin: 34px 29px;
+        font-size: 28px;
+    }
+
+    .section-moshtari-title h1 {
+        margin-right: 43px;
+    }
+
+    .section-moshtari-title p {
+        margin-right: 35px;
+        font-size: 19px;
+        margin-top: 13px;
+    }
+
+    .khadamat-menu {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .khadamat-h1 {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .khadamat-card {
+        display: flex;
+        flex-direction: column;
+        width: 319px;
+        justify-content: center;
+        margin: 32px 38px;
+    }
+
     
+
+    .footer {
+        flex-direction: column !important;
+
+        h3, h4 {
+
+            margin-right: 7%;
+        }
+
+        p {
+            margin-top: 19px;
+            width: 79%;
+            margin-right: 7%;
+        }
+
+
+    }
+
+
+    .footer div {
+        margin-top: 18px !important;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .footer-about {
+        width: 25%;
+        margin: 10px 60px;
+        font-size: 20px;
+    }
+
+    .footer-a a {
+        margin: 0%;
+    }
+
+    .footer-a a {
+        width: 25%;
+        display: inline-block;
+        font-size: 51px;
+        margin-right: 7%;
+    }
+
+
+
+    .footer-phone {
+        width: 20%;
+    }
+
+    .footer-phone h4 {
+        margin: 20px 28px !important;
+    }
+
+    .footer-namad {
+        width: 30%;
+    }
+
+    .footer-namad img {
+        margin: 20px 12px;
+    }
+
+    .footer-copyright p {
+        background-color: #fff;
+        justify-content: center;
+        display: flex;
+        padding: 10px 14px;
+        align-items: center;
+    }
+
+
+    .header-drop {
+        display: none !important;
+    }
+}
+
+
+/* ris576 */
+
+
+
+@media only screen and (min-width: 490px) and (max-width: 576px) {
+    header {
+        position: relative;
+        backdrop-filter: none;
+    }
+
+    .header-signup {
+        width: 46%;
+    }
+
+    .header-logo {
+        width: 71%;
+        margin-right: 20px;
+    }
+
+    .hero {
+        width: 100%;
+        /* position: relative; */
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .hero h1 {
+        position: absolute;
+        color: #ffffffd2;
+        top: 26%;
+        font-size: 30px;
+        width: 57%;
+        left: 22%;
+    }
+
+    .p-1 {
+        top: 53%;
+        left: 31%;
+    }
+
+    .p-hero {
+        position: absolute;
+        color: #ffffffa6;
+        font-size: 21px;
+    }
+
+    .p-2 {
+        top: 62%;
+        left: 44%;
+    }
+
+    .counter-section {
+        width: 90%;
+        display: flex;
+        margin: 38px;
+        flex-direction: column;
+    }
+
+    .p-counter {
+        width: 100%;
+        color: #fff;
+        font-size: 21px;
+    }
+
+    .img-counter {
+        width: 96%;
+        /* margin-right: 57px; */
+        margin: 25px 10px;
+    }
+
+    .img-counter img {
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .section-moshtari {
+        margin-top: -30px;
+    }
+
+    .section-moshtari-title {
+        margin: 35px 3px;
+        font-size: 32px;
+    }
+
+    .section-moshtari-title h1 {
+        margin-right: 51px;
+    }
+
+    .section-moshtari-title p {
+        margin-right: 46px;
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    .section-moshtari-title p {
+        margin-right: 46px;
+        font-size: 15px;
+        margin-top: 13px;
+    }
+
+    .khadamat-menu {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .khadamat-h1 {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .khadamat-card {
+        display: flex;
+        flex-direction: column;
+        width: 369px;
+        justify-content: center;
+        margin: 35px 90px;
+    }
+
+    /* footer */
+
+    .footer {
+        flex-direction: column !important;
+
+        h3, h4 {
+
+            margin-right: 7%;
+        }
+
+        p {
+            margin-top: 19px;
+            width: 79%;
+            margin-right: 7%;
+        }
+
+
+    }
+
+
+    .footer div {
+        margin-top: 18px !important;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .footer-about {
+        width: 25%;
+        margin: 10px 60px;
+        font-size: 20px;
+    }
+
+    .footer-a a {
+        margin: 0%;
+    }
+
+    .footer-a a {
+        width: 25%;
+        display: inline-block;
+        font-size: 51px;
+        margin-right: 7%;
+    }
+
+
+
+    .footer-phone {
+        width: 20%;
+    }
+
+    .footer-phone h4 {
+        margin: 20px 32px !important;
+    }
+
+    .footer-namad {
+        width: 30%;
+    }
+
+    .footer-namad img {
+        margin: 20px 12px;
+    }
+
+    .footer-copyright p {
+        background-color: #fff;
+        justify-content: center;
+        display: flex;
+        padding: 10px 14px;
+        align-items: center;
+    }
+
+    .header-drop {
+        display: none !important;
+    }
+}
+
+
+.hero-title-bold {
+    color: rgb(5, 85, 161);
 }
