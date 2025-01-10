@@ -1,0 +1,154 @@
+.main{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+   
+}
+.bg{
+
+    margin: 150px 50px 0px 0px;
+    width: 350px;
+    height: 450px;
+    background-color: gray;
+    border-radius: 20px;
+}
+input{
+    background-color: #434242;
+    color: white;
+    border: none;
+    margin: 15px 80px;
+    padding: 10px 65px 10px 65px;
+    font-size: large;
+    border-radius: 35px;
+}
+input:hover{
+    background-color: black;
+}
+.bg-2{
+
+    margin: 100px 50px 200px 0px;
+    width: 350px;
+    height: 450px;
+    background-color: gray;
+    border-radius: 20px;
+}
+img{
+    width: 350px;
+    height: 225px;
+    border-radius: 20px;
+}
+.h2{
+    font-size: xx-large;
+    color: white;
+    margin: 10px 5px ;
+}
+.h6{
+    color: white;
+    margin: 20px 5px ;
+}
+
+
+
+
+
+
+
+@media only all and  (min-width:300px) and (max-width:569px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px ; 
+    }&
+    .bg{
+        margin: 150px 50px 0px 0px;
+    }&
+    .bg-2{
+        margin: 150px 50px 0px 0px;
+    }
+
+}
+@media only all and  (min-width:570px) and (max-width:669px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px ; 
+    }&
+    .bg{
+        margin: 150px 100px 0px 0px;
+    }&
+    .bg-2{
+        margin: 150px 100px 0px 0px;
+    }
+
+}
+@media only all and  (min-width:670px) and (max-width:802px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px ; 
+    }&
+    .bg{
+        margin: 150px 150px 0px 0px;
+    }&
+    .bg-2{
+        margin: 150px 150px 0px 0px;
+    }
+
+}
+@media only all and (min-width:803px) and (max-width:1025px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px 400px ;
+       
+    }&
+    .bg{
+        margin: 150px 50px 0px 0px;
+    }&
+    .bg-2{
+        margin: 150px 50px 0px 0px;
+    }
+}
+@media only all and (min-width:1026px) and (max-width:1202px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px 400px ;
+       
+    }&
+    .bg{
+        margin: 150px 200px 0px 0px;
+    }&
+    .bg-2{
+        margin: 150px 200px 0px 0px;
+    }
+}
+@media only all and (min-width:1203px) and (max-width:1306px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px 400px 400px ;
+       
+    }&
+    .bg{
+        margin: 150px 50px 0px 0px;
+    }&
+    .bg-2{
+        margin: 150px 50px 0px 0px;
+    }
+}
+
+@media only all and (min-width:1307px) and (max-width:1600px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+       
+       
+    }&
+    .bg{
+        margin: 150px 150px 0px 0px;
+    }&
+    .bg-2{
+        margin: 150px 150px 0px 0px;
+    }
+    
+}
+@media only all and (min-width:1600px) and (max-width:1700px) {
+    .main{
+        display: grid;
+        grid-template-columns: 400px 400px 400px 400px ;
+    }
+}
