@@ -35,12 +35,12 @@
     font-size: 35px;
 }
 
-label {
+.sign-form label {
     color: white;
     margin-right: 14px;
 }
 
-label, input {
+.sign-form label,.sign-form input {
     display: block;
     width: 80%;
 }
@@ -54,7 +54,7 @@ input {
 }
 
 .send {
-    width: 25%;
+    width: 25% !important;
     margin-left: 179px;
     margin-top: 8px;
 }
